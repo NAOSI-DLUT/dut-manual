@@ -2,6 +2,8 @@
 title: 选课指南
 ---
 
+特别鸣谢：[AzeniaX](https://github.com/AzeniaX)
+
 ## 如何进入选课系统
 
 大连理工大学学生综合教学管理系统：[http://jxgl.dlut.edu.cn/student/home](http://jxgl.dlut.edu.cn/student/home)
