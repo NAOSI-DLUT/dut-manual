@@ -20,7 +20,7 @@ export default defineConfig({
 				{ label: '引言', slug: 'intro' },
 				{
 					label: '课程',
-					autogenerate: { directory: 'courses' },
+					autogenerate: { directory: 'course' },
 				},
 			],
 		}),

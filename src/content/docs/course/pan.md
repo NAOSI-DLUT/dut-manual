@@ -1,10 +1,10 @@
 ---
-title: 资源云盘
+title: 资料云盘
 ---
 
 本页快速访问链接：[pan.naosi.org](https://pan.naosi.org)。
 
-访问资源云盘有两种方式：
+访问资料云盘有两种方式：
 
 **加入 NAOSI 云盘组织**
 
@@ -17,7 +17,7 @@ title: 资源云盘
 
 **临时分享链接**
 
-分享链接：http://pan.dlut.edu.cn/share?id=kk62icue31q3
+http://pan.dlut.edu.cn/share?id=kk62icue31q3
 
 ## 前言
 
