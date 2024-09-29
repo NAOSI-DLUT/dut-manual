@@ -14,7 +14,7 @@ export default defineConfig({
 				}
 			},
 			social: {
-				github: 'https://github.com/NAOSI-DLUT/guide.naosi.org',
+				github: 'https://github.com/NAOSI-DLUT/DUTManual',
 			},
 			sidebar: [
 				{ label: '引言', slug: 'intro' },

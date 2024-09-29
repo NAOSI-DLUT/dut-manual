@@ -11,7 +11,7 @@ hero:
       link: /intro
       icon: right-arrow
     - text: 贡献指南
-      link: https://github.com/NAOSI-DLUT/guide.naosi.org
+      link: https://github.com/NAOSI-DLUT/DUTManual
       icon: external
       variant: minimal
 ---
