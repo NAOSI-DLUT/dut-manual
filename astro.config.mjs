@@ -7,7 +7,12 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: '大工生存手册',
-			defaultLocale: 'zh-cn',
+			locales: {
+				root: {
+					label: '简体中文',
+					lang: 'zh-CN',
+				}
+			},
 			social: {
 				github: 'https://github.com/NAOSI-DLUT/guide.naosi.org',
 			},
