@@ -19,7 +19,7 @@ export default defineConfig({
 			sidebar: [
 				{ label: '引言', slug: 'intro' },
 				{
-					label: '选课',
+					label: '课程',
 					autogenerate: { directory: 'courses' },
 				},
 			],
