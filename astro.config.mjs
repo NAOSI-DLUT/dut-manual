@@ -6,21 +6,16 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: '大工生存手册',
+			defaultLocale: 'zh-cn',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/NAOSI-DLUT/guide.naosi.org',
 			},
 			sidebar: [
+				{ label: '引言', slug: 'intro' },
 				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
-					],
-				},
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: '选课',
+					autogenerate: { directory: 'courses' },
 				},
 			],
 		}),
