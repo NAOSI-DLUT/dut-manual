@@ -16,13 +16,19 @@ export default defineConfig({
 			social: {
 				github: 'https://github.com/NAOSI-DLUT/DUTManual',
 			},
-			sidebar: [
-				{ label: '引言', slug: 'intro' },
-				{
-					label: '课程',
-					autogenerate: { directory: 'course' },
-				},
-			],
+			sidebar: [{
+				label: '引言',
+				slug: 'intro'
+			}, {
+				label: '课程',
+				autogenerate: { directory: 'course' },
+			}, {
+				label: "生活",
+				autogenerate: { directory: 'life' },
+			}, {
+				label: '去向',
+				autogenerate: { directory: 'destination' },
+			}],
 		}),
 	],
 });
