@@ -2,8 +2,6 @@
 title: 资料云盘
 ---
 
-本页快速访问链接：[pan.naosi.org](https://pan.naosi.org)。
-
 访问资料云盘有两种方式：
 
 **加入 NAOSI 云盘组织**
