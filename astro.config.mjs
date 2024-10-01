@@ -6,7 +6,11 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: '大工生存手册',
+			title: 'DUTManual',
+			logo: {
+				src: './src/assets/logo.svg',
+				replacesTitle: true,
+			},
 			locales: {
 				root: {
 					label: '简体中文',
