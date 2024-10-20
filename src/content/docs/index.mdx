@@ -1,0 +1,38 @@
+---
+title: 大工生存手册
+description: 大工人的一站式生存指南
+template: splash
+hero:
+  tagline: 大工人的一站式生存指南
+  image:
+    file: ../../assets/houston.webp
+  actions:
+    - text: 开始阅读
+      link: /intro
+      icon: right-arrow
+    - text: 贡献指南
+      link: https://github.com/NAOSI-DLUT/DUTManual
+      icon: external
+      variant: minimal
+---
+
+import { CardGrid, Card } from "@astrojs/starlight/components";
+
+<CardGrid stagger>
+  <Card title="Documentation that delights" icon="open-book">
+    Includes: Site navigation, search, internationalization, SEO, easy-to-read
+    typography, code highlighting, dark mode and more.
+  </Card>
+  <Card title="Powered by Astro" icon="rocket">
+    Leverage the full power and performance of Astro. Extend Starlight with your
+    favorite Astro integrations and libraries.
+  </Card>
+  <Card title="Markdown, Markdoc, and MDX" icon="document">
+    Bring your favorite markup language. Starlight gives you built-in
+    frontmatter validation with TypeScript type-safety.
+  </Card>
+  <Card title="Bring your own UI components" icon="puzzle">
+    Starlight ships as a framework-agnostic, complete docs solution. Extend with
+    React, Vue, Svelte, Solid, and more.
+  </Card>
+</CardGrid>
