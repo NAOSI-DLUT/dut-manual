@@ -44,6 +44,30 @@ PS：在每年的大型考试期间（比如高考中考），由于校区北邻
 
 ## DNS
 
+### Ubuntu 18.04 及以上版本
+
+编辑网络配置文件 `/etc/netplan/` 目录下的 .yaml 文件。可以使用任何文本编辑器进行修改，例如 nano 或者 vi。
+
+选择要更改的网络接口，通常为 eth0 或 ensX 等名称。
+
+添加或修改 nameservers 字段来指定所需的 DNS 服务器地址。多个 DNS 服务器之间应该用空格分隔。
+
+```yaml
+network:
+  ethernets:
+    ens3:
+      dhcp4: true
+      nameservers:
+        addresses: [202.118.66.6]
+  version: 2
+```
+
+保存并关闭文件。
+
+运行命令 `sudo netplan apply` 来应用新的网络配置。
+
+重新启动计算机或者使用命令 `sudo systemctl restart NetworkManager` 来重新加载网络管理器。
+
 ## NTP
 
 出于不明原因，大连理工大学校园网阻断了来自外部的 IPv4 NTP 流量，而大工自己的 NTP 服务器（time.dlut.edu.cn，IP 地址为 202.118.66.180）无论是 IPv4 还是 IPv6 连接下同步时间都是正常的。如要使用外部 NTP 服务器，需要有 IPv6 网络连接，或不使用大连理工大学校园网。
