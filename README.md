@@ -24,6 +24,6 @@ import { Aside } from "@astrojs/starlight/components";
 
 ## 特别鸣谢
 
-![contributors](https://contrib.rocks/image?repo=NAOSI-DLUT/dut-manual)
+[![contributors](https://contrib.rocks/image?repo=NAOSI-DLUT/dut-manual&anon=1)](https://github.com/NAOSI-DLUT/dut-manual/graphs/contributors)
 
 以及屏幕前的您！
