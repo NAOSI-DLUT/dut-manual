@@ -25,6 +25,9 @@ export default defineConfig({
 				label: '引言',
 				slug: 'intro'
 			}, {
+				label: '新生入学',
+				autogenerate: { directory: 'freshman' },
+			},{
 				label: "校园生活",
 				autogenerate: { directory: 'life' },
 			}, {
