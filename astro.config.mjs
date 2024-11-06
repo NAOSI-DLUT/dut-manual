@@ -18,6 +18,10 @@ export default defineConfig({
 					lang: 'zh-CN',
 				}
 			},
+			editLink: {
+				baseUrl: 'https://github.com/NAOSI-DLUT/dut-manual/edit/main/'
+			},
+			lastUpdated: true,
 			social: {
 				github: 'https://github.com/NAOSI-DLUT/dut-manual',
 			},
@@ -27,7 +31,7 @@ export default defineConfig({
 			}, {
 				label: '新生入学',
 				autogenerate: { directory: 'freshman' },
-			},{
+			}, {
 				label: "校园生活",
 				autogenerate: { directory: 'life' },
 			}, {
