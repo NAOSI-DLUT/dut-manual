@@ -18,6 +18,9 @@ export default defineConfig({
 					lang: 'zh-CN',
 				}
 			},
+			components: {
+				Footer: './src/components/Footer.astro',
+			},
 			editLink: {
 				baseUrl: 'https://github.com/NAOSI-DLUT/dut-manual/edit/main/'
 			},
