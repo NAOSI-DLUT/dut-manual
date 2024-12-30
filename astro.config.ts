@@ -60,6 +60,10 @@ export default defineConfig({
             { slug: "course/pan" },
             { slug: "course/curricula-variable" },
             { slug: "course/exam" },
+            {
+              label: "公共基础与通识课程",
+              autogenerate: { directory: "course/common" },
+            },
             { label: "软件学院", autogenerate: { directory: "course/se" } },
             {
               label: "国际信息与软件学院",
@@ -70,7 +74,27 @@ export default defineConfig({
         },
         {
           label: "飞跃手册",
-          autogenerate: { directory: "leap" },
+          items: [
+            { slug: "leap" },
+            {
+              label: "专业分流与转专业",
+              autogenerate: { directory: "leap/major" },
+            },
+            {
+              label: "科创竞赛",
+              autogenerate: { directory: "leap/competition" },
+            },
+            {
+              label: "学术科研",
+              autogenerate: { directory: "leap/research" },
+            },
+            {
+              label: "保研考研",
+              autogenerate: { directory: "leap/postgraduate" },
+            },
+            { label: "出国留学", autogenerate: { directory: "leap/abroad" } },
+            { label: "实习就业", autogenerate: { directory: "leap/career" } },
+          ],
         },
       ],
     }),
