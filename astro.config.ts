@@ -52,6 +52,15 @@ export default defineConfig({
               label: "校园生活",
               autogenerate: { directory: "life/campus" },
             },
+            {
+              label: "资助奖励",
+              autogenerate: { directory: "life/rewards" },
+            },
+            {
+              label: "校园服务",
+              autogenerate: { directory: "life/service" },
+            },
+            { slug: "life/graduate" },
           ],
         },
         {
