@@ -41,9 +41,7 @@ export default defineConfig({
           label: "生活指南",
           collapsed: true,
           items: [
-            {
-              slug: "intro",
-            },
+            { slug: "intro" },
             {
               label: "新生入学",
               autogenerate: { directory: "life/freshman" },
@@ -66,6 +64,7 @@ export default defineConfig({
         {
           label: "课程攻略",
           items: [
+            { slug: "course" },
             { slug: "course/pan" },
             { slug: "course/curricula-variable" },
             { slug: "course/exam" },
