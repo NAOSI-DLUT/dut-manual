@@ -89,12 +89,10 @@ export default defineConfig({
               autogenerate: { directory: "leap/major" },
             },
             {
-              label: "科创竞赛",
-              autogenerate: { directory: "leap/competition" },
+              slug: "leap/competition",
             },
             {
-              label: "学术科研",
-              autogenerate: { directory: "leap/research" },
+              slug: "leap/research",
             },
             {
               label: "保研考研",
