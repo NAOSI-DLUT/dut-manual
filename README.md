@@ -1,5 +1,7 @@
 # DUTManual
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ec787c93-a097-4516-892d-a9afdab8cee4/deploy-status)](https://app.netlify.com/projects/dutmanual/deploys)
+
 大工人的一站式生存指南
 
 ## 贡献指南
@@ -42,6 +44,6 @@ npm run dev
 
 ## 特别鸣谢
 
-[![contributors](https://contrib.rocks/image?repo=NAOSI-DLUT/dut-manual&anon=1)](https://github.com/NAOSI-DLUT/dut-manual/graphs/contributors)
+[![contributors](https://contrib.rocks/image?repo=NAOSI-DLUT/dut-manual)](https://github.com/NAOSI-DLUT/dut-manual/graphs/contributors)
 
 以及屏幕前的您！
