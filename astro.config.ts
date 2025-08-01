@@ -25,10 +25,14 @@ export default defineConfig({
         baseUrl: "https://github.com/NAOSI-DLUT/dut-manual/edit/main/",
       },
       lastUpdated: true,
-      social: {
-        github: "https://github.com/NAOSI-DLUT/dut-manual",
-        discourse: "javascript:void(0)",
-      },
+      social: [
+        {
+          icon: "github",
+          label: "GitHub",
+          href: "https://github.com/NAOSI-DLUT/dut-manual",
+        },
+        { icon: "rocket", label: "NAOSI", href: "https://naosi.org" },
+      ],
       plugins: [
         starlightUtils({
           multiSidebar: {
@@ -93,7 +97,7 @@ export default defineConfig({
             },
             {
               slug: "leap/research",
-            },            
+            },
             {
               label: "保研考研",
               autogenerate: { directory: "leap/postgraduate" },
