@@ -12,6 +12,7 @@ import Pagination from "@astrojs/starlight/components/Pagination.astro";
     <LastUpdated {...Astro.props} />
   </div>
   <Pagination {...Astro.props} />
+
   <script
     is:inline
     src="https://giscus.app/client.js"
@@ -29,6 +30,21 @@ import Pagination from "@astrojs/starlight/components/Pagination.astro";
     crossorigin="anonymous"
     async></script>
 </footer>
+
+<hr class="copyright-separator" />
+
+<p class="copyright">
+  © 2025 
+  <a href="https://github.com/NAOSI-DLUT" target="_blank" rel="noopener">
+    NAOSI
+  </a>
+  <br />
+  本站内容采用
+  <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-Hans" target="_blank" rel="noopener">
+    知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议 (CC BY-NC-SA 4.0)
+  </a>
+  进行许可。
+</p>
 
 <style>
   footer {
@@ -61,4 +77,27 @@ import Pagination from "@astrojs/starlight/components/Pagination.astro";
   .kudos:hover {
     color: var(--sl-color-white);
   }
+
+  .copyright-separator {
+    border: none;
+    border-top: 1px solid var(--sl-color-gray-4);
+    margin: 1.5rem 0;
+  }
+
+  .copyright {
+    text-align: left;       
+    font-size: var(--sl-text-xs);
+    color: var(--sl-color-gray-3);
+    margin-top: 1rem;
+  }
+
+  .copyright a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+.copyright a:hover {
+    color: green;
+}
 </style>
