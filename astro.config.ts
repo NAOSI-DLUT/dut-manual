@@ -76,6 +76,7 @@ export default defineConfig({
               label: "公共基础与通识课程",
               autogenerate: { directory: "course/common" },
             },
+            { label: "求实书院", autogenerate: { directory: "course/qiushi" } },
             { label: "软件学院", autogenerate: { directory: "course/se" } },
             {
               label: "国际信息与软件学院",
