@@ -103,7 +103,7 @@ export default defineConfig({
               label: "保研考研",
               autogenerate: { directory: "leap/postgraduate" },
             },
-            { label: "出国留学", autogenerate: { directory: "leap/abroad" } },
+            { label: "出国留学", autogenerate: { directory: "leap/aboard" } },
             { label: "实习就业", autogenerate: { directory: "leap/career" } },
             {
               slug: "leap/notice",
