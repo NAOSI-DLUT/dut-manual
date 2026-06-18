@@ -71,7 +71,9 @@ export default defineConfig({
             { slug: "course" },
             { slug: "course/pan" },
             { slug: "course/curricula-variable" },
+            { slug: "course/course-selection-strategy" },
             { slug: "course/exam" },
+            { label: "教师信息", autogenerate: { directory: "course/teachers" } },
             {
               label: "公共基础与通识课程",
               autogenerate: { directory: "course/common" },
