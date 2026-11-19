@@ -99,20 +99,49 @@ export default defineConfig({
               { slug: "course/pan" },
               { slug: "life/graduate" },
               {
-                label: "公共基础与通识课程",
+                label: "公共课程",
                 autogenerate: { directory: "course/common" },
-              },
-              {
-                label: "求实书院",
-                autogenerate: { directory: "course/qiushi" },
+                collapsed: true,
               },
               {
                 label: "软件学院",
                 autogenerate: { directory: "course/se" },
+                collapsed: true,
               },
               {
                 label: "国际信息与软件学院",
                 autogenerate: { directory: "course/ise" },
+                collapsed: true,
+              },
+              {
+                label: "集成电路学院",
+                autogenerate: { directory: "course/ic" },
+                collapsed: true,
+              },
+              {
+                label: "计算机科学与技术学院",
+                autogenerate: { directory: "course/cs" },
+                collapsed: true,
+              },
+              {
+                label: "求实书院",
+                autogenerate: { directory: "course/qiushi" },
+                collapsed: true,
+              },
+              {
+                label: "机械工程学院",
+                autogenerate: { directory: "course/mechanical-engineering" },
+                collapsed: true,
+              },
+              {
+                label: "厚德书院",
+                autogenerate: { directory: "course/houde" },
+                collapsed: true,
+              },
+              {
+                label: "校外课程",
+                autogenerate: { directory: "course/external" },
+                collapsed: true,
               },
             ],
           },

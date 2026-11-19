@@ -2,7 +2,18 @@
 title: 计算机网络
 ---
 
-import { Aside } from "@astrojs/starlight/components";
+import { Badge } from "@astrojs/starlight/components";
+import NaosiCourseMaterials from "../../../../components/NaosiCourseMaterials.astro";
+
+<Badge text="3学分" />
+<Badge text="考试" />
+
+<details id="教务信息">
+<summary>教务信息</summary>
+
+[教务系统](http://jxgl.dlut.edu.cn/student/for-std/lesson-search)在 2025-2026学年第二学期 记录的课程代码为 `1000308410040`，开课单位为软件学院，共 3 学分、48 学时。
+
+</details>
 
 ## 授课教师
 
@@ -14,13 +25,11 @@ import { Aside } from "@astrojs/starlight/components";
 
 ## 成绩构成
 
+往届教学班的成绩构成：
+
 - 平时成绩：30%
 - 期中考试：约20%
 - 期末考试：约50%
-
-<Aside>
-  成绩构成比例仅供参考，不同教学班可能存在差异，请以授课老师要求为准。
-</Aside>
 
 ## 学习建议
 
@@ -28,7 +37,7 @@ import { Aside } from "@astrojs/starlight/components";
 
 ### 复习资料
 
-部分教师的录播可在**学习通**相应章节中查看。大工云盘中也有同学上传的计网录播资源，可以留意群内共享链接。
+部分教师的录播可在学习通对应章节查看。往届同学也在群里分享过云盘录播。
 
 有同学分享了各章知识要点的复习PPT，期末前建议结合老师的复习范围进行针对性复习。
 
@@ -38,4 +47,4 @@ import { Aside } from "@astrojs/starlight/components";
 
 ## 课程资料
 
-- 大工云盘有录播资源
+<NaosiCourseMaterials />

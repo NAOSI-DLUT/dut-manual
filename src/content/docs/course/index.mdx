@@ -2,15 +2,16 @@
 title: 序
 ---
 
-除公共基础与通识课程外，专业课程按照开课单位分类。
+课程攻略按修读课程的学院或书院组织。面向全校或多个学院共用的通识、基础课程列在「公共课程」。课程页面提供 NAOSI 云盘入口，课程代码、学分等教务信息注明对应学期。
 
-课程按开课单位分类，不等同于按校区分类。同名课程在不同校区、学院、教学班或学年的安排可能不同，请确认文章中的适用范围；“公共基础与通识课程”也不表示其考核经验适用于全校所有教学班。
+同名课程按修读学院或教学班区分。
 
-本章集中收录选课、考试、体育、课程资料、各开课单位的课程经验及毕业相关内容。校园网络、证明证件、报修与资助奖励等见[校园服务](/services/)。
+本章收录选课、考试、课程经验、资料和毕业相关内容。校园网络、证明证件、报修与资助奖励等见[校园服务](/services/)。
 
 ## 课程与考试
 
 - [选课指南](/course/course-selection/)：系统操作、选课阶段、意愿值分配与课程安排。
+- [全校开课查询](http://jxgl.dlut.edu.cn/student/for-std/lesson-search)：按学期查询课程、上课院系和教学班。登录本科教务系统后也可从「公共服务与查询 → 全校开课查询」进入。
 - [大型考试](/course/exam/)
 - [体育与体测](/course/common/pe/)：含特定年份经验，按本人校区及当年安排核对。
 
@@ -21,8 +22,10 @@ title: 序
 
 ## 贡献指南
 
-- 课程页面命名规则为 `开课单位/课程英文名`，如 `se/computer-network.mdx`。
-- 对于课程信息建议从 [全校开课查询](http://jxgl.dlut.edu.cn/student/for-std/lesson-search) 中查询课程的开课单位和英文名。
+- 把课程页面放在适用的修读学院目录下，文件名优先使用课程英文名，如 `se/computer-network.mdx`。面向全校或多个学院共用的通识、基础课程放在 `common/`。
+- 从教务系统的「全校开课查询」核对课程代码、英文名和上课院系。上课院系不明确时，可查上课专业、专业班或对应年级的培养方案。
+- 按下方模板组织页面。学分、考核方式和授课教师按对应学期填写，成绩比例以该教学班公布的规则为准。
+- 云盘入口使用 `NaosiCourseMaterials` 组件。
 
 ### 课程页面模板
 
@@ -32,6 +35,7 @@ title: 课程名称
 ---
 
 import { Badge } from "@astrojs/starlight/components";
+import NaosiCourseMaterials from "../../../../components/NaosiCourseMaterials.astro";
 
 <Badge text="x学分" />
 <Badge text="考试/大作业" />
@@ -48,5 +52,5 @@ import { Badge } from "@astrojs/starlight/components";
 
 ## 课程资料
 
-课程书籍、课件、参考资料等。
+<NaosiCourseMaterials />
 ```
